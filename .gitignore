@@ -1,0 +1,51 @@
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Recipient data
+input/
+input_old_new/
+*.xlsx
+*.xls
+*.csv
+.~lock.*
+
+# Logs
+logs/
+log/
+*.log
+
+# Attachments
+attachments/
+*.pdf
+
+# Campaign state and reports
+email_state.json
+email_progress.json
+email_summary.xlsx
+failed_emails.xlsx
+email_reconciliation.xlsx
+
+# Python virtual environments
+.venv/
+venv/
+bin/
+lib/
+lib64/
+pyvenv.cfg/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmpexel_combiner/
+exel_combiner/
+
+# Virtual environment
+lib64/
+pyvenv.cfg
+
+# Old project files
+oldfiles/
